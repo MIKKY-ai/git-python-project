@@ -1,8 +1,11 @@
-import math
-number = int(input("Enter the Number"))
-
-root = math.sqrt(number)
-if int(root + 0.5) ** 2 == number:
-    print(number, "is a perfect square")
+n=int(input("Enter number:"))
+temp=n
+rev=0
+while(n>0):
+    dig=n%10
+    rev=rev*10+dig
+    n=n//10
+if(temp==rev):
+    print("The number is a palindrome")
 else:
-    print(number, "is not a perfect square")
+    print("The number isn't a palindrome")
