@@ -6,7 +6,7 @@ Open notepad and create python files
 
 #Installing
 
-Install git from git https://gitforwindows.org/
+Install git from https://gitforwindows.org/
 
 Open project folder and right click on empty space and open GitBash 
 
